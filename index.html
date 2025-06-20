@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Professor Oak – Special Delivery</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Logo -->
+  <img id="logo" src="assets/a_new_era.png" alt="A New Era" />
+  <div id="screen">
+    <img id="scene" src="assets/oak_lab.png" alt="scene">
+    <img id="oakSprite" src="assets/professor_oak.png" alt="Professor Oak" />
+    <div id="dialogue"></div>
+    <button id="next">►</button>
+    <!-- NEW: alarm overlay and popup -->
+    <img id="alarm" src="assets/alarm_overlay.png" alt="alarm overlay" />
+    <div id="popup" style="display:none;">Click to view details ↑</div>
+  </div>
+
+  <!-- NEW: full rare card overlay -->
+  <div id="rareOverlay" style="display:none;">
+    <img id="rareFull" src="assets/rare_card_full.png" alt="Rare card full">
+  </div>
+
+  <!-- NEW soundtrack cues -->
+  <audio id="introSound"   src="assets/pokemon_intro.mp3" preload="auto"></audio>
+  <audio id="rocketSound"  src="assets/team_rocket.mp3"   preload="auto"></audio>
+  <audio id="packSound"    src="assets/booster_pack.mp3"  preload="auto"></audio>
+  <!-- NEW outro theme -->
+  <audio id="outroSound"   src="assets/pokemon_outro.mp3" preload="auto"></audio>
+
+  <script src="main.js"></script>
+</body>
+</html> 
